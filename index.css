@@ -58,3 +58,24 @@ h1{
 #add-card i{
     font-size: 48px;
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 8px;
+}
+
+.form input{
+    padding: 8px;
+    outline: none;
+    border: 2px solid #B0B0B0;
+}
+
+#start-game{
+    padding: 8px;
+    background-color: #1665c0;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+}
