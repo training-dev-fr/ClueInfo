@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    margin: 0;
+}
+.grid {
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.grid .line{
+    display: flex;
+    width: 90%;
+}
+
+.grid .line .case{
+    display: flex;
+    width: 100%;
+    aspect-ratio: 1;
+    border: 1px solid #404040;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-list{
+    display: flex;
+    width: 30%;
+    height: 100vh;
+    overflow-y: auto;
+    border-left: 1px solid #404040;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+.group-list .group{
+    padding: 8px;
+    border: 1px solid #B0B0B0;
+    border-radius: 12px;
+    width: 100%;
+}
