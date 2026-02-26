@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    min-height: 400px;
+    width: 400px;
+    border: 2px solid #B0B0B0;
+    border-radius: 12px;
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+}
+
+.card .list-user{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card input{
+    padding: 8px;
+    outline: none;
+    border: 2px solid #B0B0B0;
+    width: 100%;
+}
+
+.card i{
+    font-size: 20px;
+}
+
+#add-card{
+    
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#add-card i{
+    font-size: 48px;
+}
